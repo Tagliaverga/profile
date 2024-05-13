@@ -1,5 +1,5 @@
 body{
-  background-color: #d1d4d8;
+  background-color: #688AD9;
 }
 
 .container {
@@ -9,13 +9,13 @@ body{
 
 
 .card {
-  background: rgb(223, 224, 241);
+  background: #B0BCD9;
   padding: 30px;
-  border: 1px solid lightgrey;
+  border: 1px solid rgb(100, 72, 179);
   margin-bottom: 20px;
   border-radius: 4%;
   text-align: center;
-  box-shadow: 2px, 2px, 3px, rgb(255, 255, 255);
+  box-shadow: 10px 10px 30px #48547C;
 }
 
 img {
@@ -27,7 +27,7 @@ img {
 .card_botton {
   /* background: white; */
   padding: 1px;
-  border: 1px solid lightgrey;
+  border: 1px solid ##688AD9;
   margin-bottom: 20px;
   border-radius: 4%;
   text-align: center;
@@ -36,18 +36,18 @@ img {
 
 h1{
   font-family: "Roboto";
-  color:rgb(54, 92, 80);
+  color:#48547C;
 }
 
 h2{
   font-family: "Roboto";
-  color:rgb(28, 44, 39);
+  color:rgb(255, 255, 255);
   font-size: 25px;
 }
 
 p{
   font-family: "Roboto";
-  color:rgb(88, 88, 128);
+  color:rgb(71, 71, 105);
   line-height: bold;
   margin-bottom: 8%;
 
@@ -55,7 +55,7 @@ p{
 
 .btn-profile{
   text-decoration: none;
-  background-color: rgb(88, 54, 212);
+  background-color: #6A68D9;
   padding: 12px;
   border-radius: 8%;
 }
@@ -74,11 +74,15 @@ a {
 }
 
 a:hover {
-  color: rgb(0, 0, 0);
+  color: rgb(71, 71, 105);
 }
 
 .text-center {
   text-align: center;
+}
+
+.st-inline{
+  box-shadow: 20px 20px 20px #48547C;
 }
 
 @media (max-width: 540px) {
